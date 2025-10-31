@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Simple HTML Page</title>
+    <style>
+        body{font-family:system-ui, -apple-system, "Segoe UI", Roboto, Arial;max-width:800px;margin:40px auto;padding:0 16px;color:#222}
+        header{border-bottom:1px solid #eee;padding-bottom:12px;margin-bottom:20px}
+        nav a{margin-right:12px;color:#0366d6;text-decoration:none}
+        footer{color:#666;font-size:.9em;margin-top:30px;border-top:1px solid #eee;padding-top:10px}
+        button{padding:8px 12px;border-radius:6px;border:1px solid #ccc;background:#f6f8fa;cursor:pointer}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Simple HTML Page</h1>
+        <p>A minimal starter template you can edit.</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Welcome</h2>
+            <p>This is a simple example demonstrating structure, basic styling, and a small script.</p>
+            <ul>
+                <li>Readable layout</li>
+                <li>Responsive meta tag</li>
+                <li>Inline CSS and JS</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Interactive</h2>
+            <button id="alertBtn">Click me</button>
+        </section>
+    </main>
+
+    <footer>&copy; 2025 Simple Page</footer>
+
+    <script>
+        document.getElementById('alertBtn').addEventListener('click', () => {
+            alert('Hello — this is a simple interactive example.');
+        });
+    </script>
+</body>
+</html>
